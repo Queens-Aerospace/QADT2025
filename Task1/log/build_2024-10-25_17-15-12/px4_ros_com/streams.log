@@ -1,0 +1,147 @@
+[0.007s] Invoking command in '/home/skanderb/QADT2024/Task1/build/px4_ros_com': AMENT_PREFIX_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/skanderb/QADT2024/Task1/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/skanderb/QADT2024/Task1/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/skanderb/QADT2024/Task1/install/px4_ros_com
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.096s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.146s] -- Detecting C compiler ABI info - done
+[0.155s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.155s] -- Detecting C compile features
+[0.156s] -- Detecting C compile features - done
+[0.159s] -- Detecting CXX compiler ABI info
+[0.217s] -- Detecting CXX compiler ABI info - done
+[0.225s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.225s] -- Detecting CXX compile features
+[0.225s] -- Detecting CXX compile features - done
+[0.227s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.320s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.372s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.394s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.397s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.401s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.409s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.430s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.436s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.438s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.502s] -- Found px4_msgs: 2.0.1 (/home/skanderb/QADT2024/Task1/install/px4_msgs/share/px4_msgs/cmake)
+[0.521s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.554s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.555s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.612s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.630s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.659s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.672s] -- Looking for pthread.h
+[0.726s] -- Looking for pthread.h - found
+[0.726s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.773s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.774s] -- Found Threads: TRUE  
+[0.851s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.907s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[0.912s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.978s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.980s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.980s] -- Configured cppcheck include dirs: /home/skanderb/QADT2024/Task1/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/skanderb/QADT2024/Task1/src/px4_ros_com/include/px4_ros_com>
+[0.980s] -- Configured cppcheck exclude dirs and/or files: 
+[0.983s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.983s] -- Configured cpplint exclude dirs and/or files: 
+[0.983s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.984s] -- Added test 'lint_cmake' to check CMake code style
+[0.985s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.987s] -- Added test 'uncrustify' to check C / C++ code style
+[0.987s] -- Configured uncrustify additional arguments: 
+[0.988s] -- Added test 'xmllint' to check XML markup files
+[0.989s] -- Configuring done
+[1.003s] -- Generating done
+[1.004s] -- Build files have been written to: /home/skanderb/QADT2024/Task1/build/px4_ros_com
+[1.013s] Invoked command in '/home/skanderb/QADT2024/Task1/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/skanderb/QADT2024/Task1/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/skanderb/QADT2024/Task1/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/skanderb/QADT2024/Task1/install/px4_ros_com
+[1.013s] Invoking command in '/home/skanderb/QADT2024/Task1/build/px4_ros_com': AMENT_PREFIX_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/skanderb/QADT2024/Task1/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/skanderb/QADT2024/Task1/build/px4_ros_com -- -j8 -l8
+[1.048s] [ 16%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[1.048s] [ 16%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[1.048s] [ 25%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[1.048s] [ 33%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[1.049s] [ 41%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[1.049s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[1.057s] [ 50%] Built target ament_cmake_python_copy_px4_ros_com
+[1.344s] running egg_info
+[1.344s] creating px4_ros_com.egg-info
+[1.344s] writing px4_ros_com.egg-info/PKG-INFO
+[1.345s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[1.345s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[1.345s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.347s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.348s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.379s] [ 50%] Built target ament_cmake_python_build_px4_ros_com_egg
+[5.267s] [ 58%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[5.580s] [ 58%] Built target debug_vect_advertiser
+[7.167s] [ 66%] [32m[1mLinking CXX executable offboard_control[0m
+[7.376s] [ 66%] Built target offboard_control
+[7.757s] [ 75%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[7.993s] [ 75%] Built target offboard_control_srv
+[9.160s] [ 83%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[9.490s] [ 83%] Built target vehicle_gps_position_listener
+[9.553s] [ 91%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[9.769s] [ 91%] Built target frame_transforms
+[9.824s] [100%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[10.087s] [100%] Built target sensor_combined_listener
+[10.097s] Invoked command in '/home/skanderb/QADT2024/Task1/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/skanderb/QADT2024/Task1/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/skanderb/QADT2024/Task1/build/px4_ros_com -- -j8 -l8
+[10.120s] Invoking command in '/home/skanderb/QADT2024/Task1/build/px4_ros_com': AMENT_PREFIX_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/skanderb/QADT2024/Task1/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/skanderb/QADT2024/Task1/build/px4_ros_com
+[10.125s] -- Install configuration: ""
+[10.125s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[10.127s] -- Set runtime path of "/home/skanderb/QADT2024/Task1/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[10.127s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[10.129s] -- Set runtime path of "/home/skanderb/QADT2024/Task1/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[10.129s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[10.129s] -- Set runtime path of "/home/skanderb/QADT2024/Task1/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[10.129s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[10.130s] -- Set runtime path of "/home/skanderb/QADT2024/Task1/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[10.130s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[10.131s] -- Set runtime path of "/home/skanderb/QADT2024/Task1/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[10.131s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[10.131s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[10.131s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/include/px4_ros_com
+[10.131s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[10.131s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/lib/libframe_transforms.so
+[10.133s] -- Set runtime path of "/home/skanderb/QADT2024/Task1/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[10.133s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com//launch
+[10.133s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[10.133s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[10.133s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com//test
+[10.133s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[10.133s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[10.134s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[10.134s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[10.134s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[10.134s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[10.134s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[10.134s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[10.134s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[10.134s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[10.134s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[10.134s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com
+[10.134s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[10.134s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[10.155s] Listing '/home/skanderb/QADT2024/Task1/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[10.155s] Compiling '/home/skanderb/QADT2024/Task1/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...
+[10.155s] Compiling '/home/skanderb/QADT2024/Task1/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...
+[10.158s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[10.158s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[10.158s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[10.158s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[10.158s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[10.158s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[10.158s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[10.158s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[10.158s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[10.158s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[10.158s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[10.158s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/package.dsv
+[10.159s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[10.159s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[10.159s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[10.159s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.159s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[10.159s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.159s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[10.159s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[10.159s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[10.159s] -- Installing: /home/skanderb/QADT2024/Task1/install/px4_ros_com/share/px4_ros_com/package.xml
+[10.161s] Invoked command in '/home/skanderb/QADT2024/Task1/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/skanderb/QADT2024/Task1/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/skanderb/QADT2024/Task1/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/skanderb/QADT2024/Task1/build/px4_ros_com
