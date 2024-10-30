@@ -1,3 +1,3 @@
 #!/bin/bash
-
-echo test
+bash startDDS.sh
+bash startGazebo.sh
