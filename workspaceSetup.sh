@@ -1,5 +1,5 @@
 #!/bin/bash
-if [basename "$PWD" -eq "QADT2025"]
+if [ "$(basename "$PWD")" = "QADT2025" ]
 then
 echo "DO NOT RUN THIS IN THE BASE DIRECTORY!!!!"
 echo "Make a new folder. 'mkdir example'"
