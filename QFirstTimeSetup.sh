@@ -1,3 +1,3 @@
 #!/bin/bash
-
-echo poopy
+cd PX5
+make px4_sitl
