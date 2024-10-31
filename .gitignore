@@ -1,0 +1,45 @@
+# Build files
+/build/
+/bin/
+/obj/
+/*.o
+/*.a
+/*.so
+/*.exe
+/*.dll
+
+# Python environment files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+venv.bak/
+
+# Node modules
+node_modules/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Configuration and sensitive information
+*.env
+config.json
+credentials.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.lock
+
+# Other
+*.iml
+*.DS_Store
