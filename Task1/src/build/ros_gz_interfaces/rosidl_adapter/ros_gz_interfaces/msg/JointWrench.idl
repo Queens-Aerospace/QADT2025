@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_gz_interfaces/msg/JointWrench.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Wrench.idl"
+#include "std_msgs/msg/Header.idl"
+#include "std_msgs/msg/String.idl"
+#include "std_msgs/msg/UInt32.idl"
+
+module ros_gz_interfaces {
+  module msg {
+    struct JointWrench {
+      @verbatim (language="comment", text=
+        "Time stamp")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Body 1 name string")
+      std_msgs::msg::String body_1_name;
+
+      @verbatim (language="comment", text=
+        "Body 1 id")
+      std_msgs::msg::UInt32 body_1_id;
+
+      @verbatim (language="comment", text=
+        "Body 2 name string")
+      std_msgs::msg::String body_2_name;
+
+      @verbatim (language="comment", text=
+        "Body 2 id")
+      std_msgs::msg::UInt32 body_2_id;
+
+      @verbatim (language="comment", text=
+        "Body 1 wrench")
+      geometry_msgs::msg::Wrench body_1_wrench;
+
+      @verbatim (language="comment", text=
+        "Body 2 wrench")
+      geometry_msgs::msg::Wrench body_2_wrench;
+    };
+  };
+};

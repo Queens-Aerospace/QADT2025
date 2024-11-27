@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_gz_interfaces/msg/Entity.msg
+// generated code does not contain a copyright notice
+
+
+module ros_gz_interfaces {
+  module msg {
+    module Entity_Constants {
+      const uint8 NONE = 0;
+      const uint8 LIGHT = 1;
+      const uint8 MODEL = 2;
+      const uint8 LINK = 3;
+      const uint8 VISUAL = 4;
+      const uint8 COLLISION = 5;
+      const uint8 SENSOR = 6;
+      const uint8 JOINT = 7;
+    };
+    @verbatim (language="comment", text=
+      "Entity type: constant definition")
+    struct Entity {
+      @verbatim (language="comment", text=
+        "Entity unique identifier accross all types. Defaults to 0")
+      uint64 id;
+
+      @verbatim (language="comment", text=
+        "Entity name, which is not guaranteed to be unique.")
+      string name;
+
+      @verbatim (language="comment", text=
+        "Entity type.")
+      uint8 type;
+    };
+  };
+};

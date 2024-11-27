@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_gz_interfaces/msg/WorldReset.msg
+// generated code does not contain a copyright notice
+
+
+module ros_gz_interfaces {
+  module msg {
+    struct WorldReset {
+      @verbatim (language="comment", text=
+        "Reset time and model")
+      @default (value=FALSE)
+      boolean all;
+
+      @verbatim (language="comment", text=
+        "Reset time only")
+      @default (value=FALSE)
+      boolean time_only;
+
+      @verbatim (language="comment", text=
+        "Reset model only")
+      @default (value=FALSE)
+      boolean model_only;
+    };
+  };
+};

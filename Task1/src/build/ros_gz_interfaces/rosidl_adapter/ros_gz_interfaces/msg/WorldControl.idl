@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_gz_interfaces/msg/WorldControl.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "ros_gz_interfaces/msg/WorldReset.idl"
+
+module ros_gz_interfaces {
+  module msg {
+    struct WorldControl {
+      @verbatim (language="comment", text=
+        "Paused state.")
+      boolean pause;
+
+      boolean step;
+
+      @verbatim (language="comment", text=
+        "Paused after stepping multi_step.")
+      @default (value=0)
+      uint32 multi_step;
+
+      ros_gz_interfaces::msg::WorldReset reset;
+
+      uint32 seed;
+
+      @verbatim (language="comment", text=
+        "A simulation time in the future to run to and" "\n"
+        "then pause.")
+      builtin_interfaces::msg::Time run_to_sim_time;
+    };
+  };
+};

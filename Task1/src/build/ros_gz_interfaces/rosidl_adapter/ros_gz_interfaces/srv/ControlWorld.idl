@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros_gz_interfaces/srv/ControlWorld.srv
+// generated code does not contain a copyright notice
+
+#include "ros_gz_interfaces/msg/WorldControl.idl"
+
+module ros_gz_interfaces {
+  module srv {
+    struct ControlWorld_Request {
+      @verbatim (language="comment", text=
+        "Message to Control world in Gazebo Sim")
+      ros_gz_interfaces::msg::WorldControl world_control;
+    };
+    struct ControlWorld_Response {
+      @verbatim (language="comment", text=
+        "Return true if control is successful.")
+      boolean success;
+    };
+  };
+};

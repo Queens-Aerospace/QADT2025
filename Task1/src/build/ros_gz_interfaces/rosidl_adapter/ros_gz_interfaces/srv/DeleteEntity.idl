@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros_gz_interfaces/srv/DeleteEntity.srv
+// generated code does not contain a copyright notice
+
+#include "ros_gz_interfaces/msg/Entity.idl"
+
+module ros_gz_interfaces {
+  module srv {
+    struct DeleteEntity_Request {
+      @verbatim (language="comment", text=
+        "Gazebo Sim entity to be deleted.")
+      ros_gz_interfaces::msg::Entity entity;
+    };
+    struct DeleteEntity_Response {
+      @verbatim (language="comment", text=
+        "Return true if deletion is successful.")
+      boolean success;
+    };
+  };
+};

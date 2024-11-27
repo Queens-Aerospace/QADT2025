@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros_gz_interfaces/srv/SpawnEntity.srv
+// generated code does not contain a copyright notice
+
+#include "ros_gz_interfaces/msg/EntityFactory.idl"
+
+module ros_gz_interfaces {
+  module srv {
+    struct SpawnEntity_Request {
+      @verbatim (language="comment", text=
+        "Message to create a new entity")
+      ros_gz_interfaces::msg::EntityFactory entity_factory;
+    };
+    struct SpawnEntity_Response {
+      @verbatim (language="comment", text=
+        "Return true if spawned successfully.")
+      boolean success;
+    };
+  };
+};

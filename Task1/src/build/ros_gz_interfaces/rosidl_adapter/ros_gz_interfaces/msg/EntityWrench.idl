@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_gz_interfaces/msg/EntityWrench.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Wrench.idl"
+#include "ros_gz_interfaces/msg/Entity.idl"
+#include "std_msgs/msg/Header.idl"
+
+module ros_gz_interfaces {
+  module msg {
+    struct EntityWrench {
+      @verbatim (language="comment", text=
+        "Time stamp")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Entity")
+      ros_gz_interfaces::msg::Entity entity;
+
+      @verbatim (language="comment", text=
+        "Wrench to be applied to entity")
+      geometry_msgs::msg::Wrench wrench;
+    };
+  };
+};

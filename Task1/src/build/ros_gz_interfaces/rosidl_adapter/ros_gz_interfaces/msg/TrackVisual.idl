@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_gz_interfaces/msg/TrackVisual.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module ros_gz_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message for a tracking a rendering::Visual with a rendering::Camera.")
+    struct TrackVisual {
+      @verbatim (language="comment", text=
+        "Optional header data.")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Name of the visual to track.")
+      string name;
+
+      @verbatim (language="comment", text=
+        "Id of the visual to track.")
+      uint32 id;
+
+      @verbatim (language="comment", text=
+        "True to have the tracking camera inherit the orientation of" "\n"
+        "the tracked visual.")
+      boolean inherit_orientation;
+
+      @verbatim (language="comment", text=
+        "Minimum follow distance.")
+      double min_dist;
+
+      @verbatim (language="comment", text=
+        "Maximum follow distance.")
+      double max_dist;
+
+      @verbatim (language="comment", text=
+        "If set to true, the position of the camera is fixed.")
+      boolean is_static;
+
+      @verbatim (language="comment", text=
+        "If set to true, the position of the camera is relative to the." "\n"
+        "model reference frame.")
+      boolean use_model_frame;
+
+      @verbatim (language="comment", text=
+        "Position of the camera.")
+      geometry_msgs::msg::Vector3 xyz;
+
+      @verbatim (language="comment", text=
+        "If set to true, the camera inherits the yaw rotation of the model.")
+      boolean inherit_yaw;
+    };
+  };
+};

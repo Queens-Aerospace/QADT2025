@@ -1,0 +1,51 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_gz_interfaces/msg/MaterialColor.msg
+// generated code does not contain a copyright notice
+
+#include "ros_gz_interfaces/msg/Entity.idl"
+#include "std_msgs/msg/ColorRGBA.idl"
+#include "std_msgs/msg/Header.idl"
+
+module ros_gz_interfaces {
+  module msg {
+    module MaterialColor_Constants {
+      const uint8 FIRST = 0;
+      const uint8 ALL = 1;
+    };
+    @verbatim (language="comment", text=
+      "Entities that match to apply material color: constant definition")
+    struct MaterialColor {
+      @verbatim (language="comment", text=
+        "Optional header data")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Entity to change material color")
+      ros_gz_interfaces::msg::Entity entity;
+
+      @verbatim (language="comment", text=
+        "Ambient color")
+      std_msgs::msg::ColorRGBA ambient;
+
+      @verbatim (language="comment", text=
+        "Diffuse color")
+      std_msgs::msg::ColorRGBA diffuse;
+
+      @verbatim (language="comment", text=
+        "Specular color")
+      std_msgs::msg::ColorRGBA specular;
+
+      @verbatim (language="comment", text=
+        "Emissive color")
+      std_msgs::msg::ColorRGBA emissive;
+
+      @verbatim (language="comment", text=
+        "Specular exponent")
+      double shininess;
+
+      @verbatim (language="comment", text=
+        "Entities that match to apply material color")
+      uint8 entity_match;
+    };
+  };
+};

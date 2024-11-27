@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_gz_interfaces/msg/Contact.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "ros_gz_interfaces/msg/Entity.idl"
+#include "ros_gz_interfaces/msg/JointWrench.idl"
+
+module ros_gz_interfaces {
+  module msg {
+    struct Contact {
+      @verbatim (language="comment", text=
+        "Contact collision1")
+      ros_gz_interfaces::msg::Entity collision1;
+
+      @verbatim (language="comment", text=
+        "Contact collision2")
+      ros_gz_interfaces::msg::Entity collision2;
+
+      @verbatim (language="comment", text=
+        "List of contact position")
+      sequence<geometry_msgs::msg::Vector3> positions;
+
+      @verbatim (language="comment", text=
+        "List of contact normals")
+      sequence<geometry_msgs::msg::Vector3> normals;
+
+      @verbatim (language="comment", text=
+        "List of penetration depths")
+      sequence<double> depths;
+
+      @verbatim (language="comment", text=
+        "List of joint wrenches including forces/torques")
+      sequence<ros_gz_interfaces::msg::JointWrench> wrenches;
+    };
+  };
+};

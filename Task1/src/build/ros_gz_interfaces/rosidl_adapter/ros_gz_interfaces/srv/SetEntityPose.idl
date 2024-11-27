@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros_gz_interfaces/srv/SetEntityPose.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "ros_gz_interfaces/msg/Entity.idl"
+
+module ros_gz_interfaces {
+  module srv {
+    struct SetEntityPose_Request {
+      @verbatim (language="comment", text=
+        "Gazebo Sim entity.")
+      ros_gz_interfaces::msg::Entity entity;
+
+      @verbatim (language="comment", text=
+        "Pose of entity.")
+      geometry_msgs::msg::Pose pose;
+    };
+    struct SetEntityPose_Response {
+      @verbatim (language="comment", text=
+        "Return true if set successfully.")
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,28 @@
+{
+  "package_name": "ros_gz_interfaces",
+  "non_idl_tuples": [
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/Altimeter.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/Contact.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/Contacts.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/Dataframe.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/Entity.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/EntityFactory.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/EntityWrench.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/Float32Array.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/GuiCamera.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/JointWrench.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/Light.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/MaterialColor.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/ParamVec.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/SensorNoise.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/StringVec.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/TrackVisual.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/VideoRecord.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/WorldControl.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:msg/WorldReset.msg",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:srv/ControlWorld.srv",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:srv/DeleteEntity.srv",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:srv/SetEntityPose.srv",
+    "/home/skanderb/QADT2025/Task1/src/ros_gz/ros_gz_interfaces:srv/SpawnEntity.srv"
+  ]
+}

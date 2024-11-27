@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_gz_interfaces/msg/Float32Array.msg
+// generated code does not contain a copyright notice
+
+
+module ros_gz_interfaces {
+  module msg {
+    struct Float32Array {
+      sequence<float> data;
+    };
+  };
+};

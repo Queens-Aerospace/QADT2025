@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from px4_msgs/msg/RoverAckermannGuidanceStatus.msg
+// generated code does not contain a copyright notice
+
+
+module px4_msgs {
+  module msg {
+    struct RoverAckermannGuidanceStatus {
+      @verbatim (language="comment", text=
+        "time since system start (microseconds)")
+      uint64 timestamp;
+
+      @verbatim (language="comment", text=
+        "Lookahead distance of pure the pursuit controller")
+      @unit (value="m")
+      float lookahead_distance;
+
+      @verbatim (language="comment", text=
+        "Heading error of the pure pursuit controller")
+      @unit (value="deg")
+      float heading_error;
+    };
+  };
+};

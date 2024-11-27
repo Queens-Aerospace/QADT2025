@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_gz_interfaces/msg/Dataframe.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module ros_gz_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message containing some payload as well as sender and destination" "\n"
+      "Intended for use with the comms system in Gazebo")
+    struct Dataframe {
+      @verbatim (language="comment", text=
+        "Time stamp")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Address of the sender")
+      string src_address;
+
+      @verbatim (language="comment", text=
+        "Address of the destination")
+      string dst_address;
+
+      @verbatim (language="comment", text=
+        "Payload")
+      sequence<uint8> data;
+
+      @verbatim (language="comment", text=
+        "Received Signal Strength Indicator")
+      double rssi;
+    };
+  };
+};

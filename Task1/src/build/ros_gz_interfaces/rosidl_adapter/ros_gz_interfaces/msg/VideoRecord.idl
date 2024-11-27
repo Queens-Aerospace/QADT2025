@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_gz_interfaces/msg/VideoRecord.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module ros_gz_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "A message that allows for control of video recording functions.")
+    struct VideoRecord {
+      @verbatim (language="comment", text=
+        "Optional header data.")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "True to start video recording.")
+      boolean start;
+
+      @verbatim (language="comment", text=
+        "True to stop video recording.")
+      boolean stop;
+
+      @verbatim (language="comment", text=
+        "Video encoding format, e.g. \"mp4\", \"ogv\".")
+      string format;
+
+      @verbatim (language="comment", text=
+        "filename of the recorded video.")
+      string save_filename;
+    };
+  };
+};
