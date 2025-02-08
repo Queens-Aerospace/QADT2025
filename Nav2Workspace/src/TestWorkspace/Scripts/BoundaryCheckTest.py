@@ -1,12 +1,14 @@
 import rclpy
+import math
 from rclpy.node import Node
-from sensor_msgs.msg import NavSatFix
+from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy, DurabilityPolicy
+from px4_msgs.msg import SensorGps, VehicleLocalPosition, TrajectorySetpoint
 from shapely.geometry import Point, Polygon
 
 class BoundaryChecker(Node):
     def __init__(self):
         super().__init__('boundary_checker')
-
+        print("Function Called")
         self.boundaryCoords = [
             (-110.7328077, 50.0970884),
             (-110.7327756, 50.1061216),
@@ -16,21 +18,31 @@ class BoundaryChecker(Node):
             (-110.7382533, 50.0971194),
             (-110.7328077, 50.0970884) 
         ]
-
-        
         self.boundary_polygon = Polygon(self.boundaryCoords)
 
+        qos_profile = QoSProfile(
+            reliability=ReliabilityPolicy.BEST_EFFORT,
+            durability=DurabilityPolicy.TRANSIENT_LOCAL,
+            history=HistoryPolicy.KEEP_LAST,
+            depth=1
+        )
+        
         # Subscribe to the GPS topic
-        self.subscription = self.create_subscription(
-            NavSatFix,
-            '/rmu/out/vehicle_gps_position',  # Adjust the topic name as per your setup
+        self.vehicle_gps_position = self.create_subscription(
+            SensorGps,
+            '/fmu/out/vehicle_gps_position',
             self.gps_callback,
-            10
+            qos_profile
         )
 
     def gps_callback(self, msg):
+        print("GPS CALLED")
         """Callback for GPS data."""
-        current_position = Point(msg.longitude, msg.latitude)
+        current_position = Point(msg.longitude_deg, msg.latitude_deg)
+        print("Longitude:" + str(msg.longitude_deg))
+        print("Latitude:" + str(msg.latitude_deg))
+
+        current_position = Point(-112.7385000,50.1010000)
 
         if self.is_within_boundary(current_position):
             self.get_logger().info('Drone is within the boundary.')
@@ -42,7 +54,9 @@ class BoundaryChecker(Node):
         return self.boundary_polygon.contains(point)
 
 def main(args=None):
+    print("Running")
     rclpy.init(args=args)
+    
 
     boundary_checker = BoundaryChecker()
 
